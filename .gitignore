@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Large model files (>100MB GitHub limit)
+*.h5
+*.keras
+*.weights.h5
+*.pkl
+
+# Dataset images (too large for GitHub)
+images/
+NeoJaundice/images/
+
+# Temporary files
+tempCodeRunnerFile.py
+~$*
